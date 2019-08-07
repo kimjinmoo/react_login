@@ -1,0 +1,50 @@
+.container-login {
+  width: 100%;
+  height:100vh;
+  min-height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-color: #757575;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.wrap-login {
+  width: 350px;
+  background-color: #757575;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px;
+}
+.innerLogin {
+  padding: 15px;
+}
+
+.innerLogin .bp3-input-group {
+  margin-bottom: 10px;
+
+}
+/*.loginForm input {*/
+/*  margin: 10px 10px 0px 0px;*/
+/*}*/
+
+.loginForm input {
+  /*margin-top: 10px;*/
+  /*width: 500%;*/
+}
+
+.loginForm {
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.loginForm #login_button{
+  width: 100%;
+}

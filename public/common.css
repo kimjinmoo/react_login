@@ -1,0 +1,45 @@
+* { padding:0;margin:0;}
+html, body {
+  /*height:100%;*/
+  width: 100%;
+  /*position: fixed;*/
+  /*overflow: hidden;*/
+  touch-action: manipulation;
+}
+
+#root {
+  /*height: 100%*/
+}
+.app {
+  width: 100vw;
+  /*height: 100vh;*/
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  background: #f00;
+  margin: -50px 0 0 -50px;
+}
+
+.react-datepicker-popper {
+  z-index: 9999 !important;
+}
+
+.font-10 {
+  font-weight: 400;
+  font-size: 10pt;
+}
+.font-12 {
+  font-weight: 400;
+  font-size: 12pt;
+}
+
+.text-center {
+  text-align: center;
+}
