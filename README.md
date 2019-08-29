@@ -22,6 +22,9 @@ App.js
 index.js  : index 페이지 
  ```
  
+ #start
+ yarn start
+ 
  ## 구성 참조
  Ref<br>
  https://redux.js.org/basics/basic-tutorial
