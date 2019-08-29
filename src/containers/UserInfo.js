@@ -5,7 +5,6 @@ class UserInfo extends React.Component {
 
   render() {
     let {oauth} = this.props;
-    console.log(oauth)
     return (
         <div>
           Login User : + {oauth.id}
