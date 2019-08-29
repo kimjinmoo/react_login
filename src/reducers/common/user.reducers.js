@@ -1,9 +1,10 @@
 import {UserAction} from '../../actions'
 
 let userReducers = JSON.parse(localStorage.getItem('oauth'));
-const initialState = userReducers ? { loggedIn: true, user: userReducers } : {};
+const initialState = userReducers ? { loggedIn: true, oauth: userReducers } : {};
 
 export function authentication(status = initialState, action) {
+  console.log(action.type)
   switch (action.type) {
     case UserAction.LOGIN_REQUEST:
       return {

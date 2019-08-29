@@ -1,7 +1,6 @@
 import React from 'react'
 import LoginForm from "../containers/common/LoginForm";
 import "./common/css/login.css"
-import bg from './common/etc/bg.mp4'
 
 class Login extends React.Component {
   render() {

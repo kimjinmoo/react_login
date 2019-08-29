@@ -1,5 +1,6 @@
 import React from 'react'
 import LogoutForm from "../containers/common/LogoutForm";
+import UserInfo from "../containers/UserInfo"
 import {
   Alignment,
   Navbar,
@@ -9,22 +10,17 @@ import {
 } from "@blueprintjs/core"
 
 class Main extends React.Component {
-  componentDidMount() {
-  }
-
   render() {
     return (
         <div>
           <Navbar fixedToTop={false}>
             <NavbarGroup align={Alignment.RIGHT}>
-              <NavbarHeading>Hello World</NavbarHeading>
+              <NavbarHeading>Login Sample</NavbarHeading>
               <NavbarDivider />
               <LogoutForm/>
             </NavbarGroup>
           </Navbar>
-          <div>
-            Container
-          </div>
+          <UserInfo/>
         </div>
     )
   }
